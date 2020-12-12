@@ -21,7 +21,7 @@
 **Step 1:** Install plugin:
 
 ```sh
-npm install --save-dev postcss postcss-px2rem-extend
+npm install --save-dev postcss-px2rem-extend
 ```
 
 **Step 2:** Check you project for existed PostCSS config: `postcss.config.js`

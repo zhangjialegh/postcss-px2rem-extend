@@ -3,7 +3,7 @@ a {
   padding:  1rem;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 153rem) {
   a {
     font-size: 6rem;
     padding: 4rem 3rem;

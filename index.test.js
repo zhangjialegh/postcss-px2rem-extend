@@ -12,10 +12,16 @@ async function run (input, output, opts = { }) {
 
 // /* Write tests here
 
-it('does something', async () => {
+it('test remUnit', async () => {
   const input = fs.readFileSync(path.resolve('./test/input/test1.css'))
   const output = fs.readFileSync(path.resolve('./test/output/test1.css'))
   await run(input.toString(), output.toString(), { remUnit: 5 })
+})
+
+it('test mediaQuery', async () => {
+  const input = fs.readFileSync(path.resolve('./test/input/test2.css'))
+  const output = fs.readFileSync(path.resolve('./test/output/test2.css'))
+  await run(input.toString(), output.toString(), { remUnit: 5, mediaQuery: true })
 })
 
 // */
